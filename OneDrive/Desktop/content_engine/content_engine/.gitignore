@@ -1,3 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual env
+venv/
+env/
+
+# Editor
+.vscode/
+*.swp
+
+# dotenv
+.env
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
 .env
 venv/
 __pycache__/

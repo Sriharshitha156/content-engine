@@ -39,10 +39,10 @@ The app will open at `http://localhost:8501`.
 
 ## API keys you need
 
-- **OPENROUTER_API_KEY** — powers tagline, blog, social, critic, script adapter, and channel adaptation calls
-- **GPT_IMAGE_API_KEY** — powers the hero image call (OpenAI-compatible `/images/generations` endpoint)
-- **RUNWAY_API_KEY** — powers the image-to-video call
-- **TTS_API_KEY** — powers the voiceover call (OpenAI-compatible `/audio/speech` endpoint)
+- **DEEPSEEK_API_KEY** (or `OPENROUTER_API_KEY`) — powers tagline, blog, social, critic, script adapter, and channel adaptation calls
+- **GPT_IMAGE_API_KEY** — powers the hero image call (Hugging Face Inference or Replicate)
+- **REPLICATE_API_TOKEN** — powers WAN/video predictions (Replicate)
+- Optional: `TTS_VOICE` — voice name for `edge-tts` (default `alloy`)
 
 If a key is missing, the app shows a warning banner and the relevant card shows
 an inline error instead of crashing the rest of the run.
